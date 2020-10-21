@@ -5,13 +5,18 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class GCGui1 extends JFrame implements ActionListener {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
 	/*
 	 * Fields
 	 */
 	private JFrame frame = new JFrame("OG Chat");
 	private static String ipAd, port, name;
 	private static JTextField ipTF, portTF, nameTF;
-	private static Boolean vis, sub = false;
+	private static Boolean sub = false;
 	private JLabel ipLabel, portLabel, nameLabel;
 	private static JButton send;
 

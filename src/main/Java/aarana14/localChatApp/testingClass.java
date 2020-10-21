@@ -5,7 +5,12 @@ import java.awt.*;
 import javax.swing.*; 
 public class testingClass extends JFrame implements ActionListener { 
   
-    // JFrame 
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	// JFrame 
     static JFrame f; 
   
     // JButton 
@@ -23,7 +28,8 @@ public class testingClass extends JFrame implements ActionListener {
     } 
   
     // main class 
-    public static void main(String[] args) 
+    @SuppressWarnings("deprecation")
+	public static void main(String[] args) 
     { 
         // create a new frame to store text field and button 
         f = new JFrame("textfield"); 

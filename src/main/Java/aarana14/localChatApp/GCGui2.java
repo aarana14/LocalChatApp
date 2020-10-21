@@ -5,11 +5,18 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class GCGui2 extends JFrame implements ActionListener {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
 	/*
 	 * Fields
 	 */
 	private JFrame frame = new JFrame("OG Chat");
-	private static String uMsg, rMsg, dMsg;
+	private static String uMsg, rMsg;
+
+	private String dMsg;
 	private static JTextField msgTF;
 	private JButton sendMsg;
 	private JTextArea ta;

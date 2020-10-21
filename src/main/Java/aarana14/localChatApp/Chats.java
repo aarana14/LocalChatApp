@@ -34,6 +34,7 @@ public class Chats {
 		chatsProgram(input, ipAddress, portNum);
 	}
 
+	@SuppressWarnings("deprecation")
 	public void chatsProgram(Scanner input, String ipAddress, String portNum) {
 		try {
 			System.out.println("Pgrm Running...");

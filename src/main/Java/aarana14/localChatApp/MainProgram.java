@@ -1,6 +1,5 @@
 package main.Java.aarana14.localChatApp;
 
-import java.util.Scanner;
 
 public class MainProgram {
 	public static void main(String[] args) {
@@ -9,11 +8,6 @@ public class MainProgram {
 		 * Variables
 		 */
 		String ipAddress = null, portNum = null, uName = null;
-
-		/*
-		 * Objects
-		 */
-		Scanner input = new Scanner(System.in);
 
 		// Set GUI's
 		GCGui1 menuGUI = new GCGui1();
@@ -32,6 +26,7 @@ public class MainProgram {
 		menuGUI.visibleFrame(false);
 
 		// Start GC Object
+		@SuppressWarnings("unused")
 		Chats gc = new Chats(ipAddress, portNum, uName);
 	}
 }
