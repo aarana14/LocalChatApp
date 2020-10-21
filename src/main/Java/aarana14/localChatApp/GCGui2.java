@@ -1,4 +1,4 @@
-package ChatApp;
+package main.Java.aarana14.localChatApp;
 
 import java.awt.*;
 import java.awt.event.*;
